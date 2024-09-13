@@ -1,0 +1,8 @@
+---
+- name: test
+  hosts: all
+  tasks:
+  - name: creat euser
+    user:
+      name: goms
+      state: present
